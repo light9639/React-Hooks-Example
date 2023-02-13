@@ -2,13 +2,13 @@ import reactLogo from "./assets/react.svg";
 import "./App.scss";
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import RefMain from "@components/Ref1/RefMain";
-import RefMain2 from "@components/Ref2/RefMain2";
-import Callback1 from "@components/Callback1/Callback1";
-import Callback2 from "@components/Callback2/Callback2";
-import Reducer1 from "@components/Reducer1/Reducer1";
-import Reducer2 from "@components/Reducer2/Reducer2";
-import Header from "@components/Header/Header";
+import RefMain from "../components/Ref1/RefMain";
+import RefMain2 from "../components/Ref2/RefMain2";
+import Callback1 from "../components/Callback1/Callback1";
+import Callback2 from "../components/Callback2/Callback2";
+import Reducer1 from "../components/Reducer1/Reducer1";
+import Reducer2 from "../components/Reducer2/Reducer2";
+import Header from "../components/Header/Header";
 
 export default function App(): JSX.Element {
   return (
